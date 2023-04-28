@@ -1,0 +1,10 @@
+player score:0
+player score:4
+player score:5
+player score:8
+player score:2
+player score:4
+player score:0
+player score:2
+player score:0
+player score:0
