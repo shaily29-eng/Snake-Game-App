@@ -1,6 +1,6 @@
 # Snake-Game-App
 # Team Members : Shaily Goyal, Shreya Maitra
-<h2>Java Version :17.0.6</h2>
+# Java Version :17.0.6 #
 
 # Instructions for running the snake game #
 
