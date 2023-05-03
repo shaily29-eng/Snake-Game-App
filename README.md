@@ -13,7 +13,7 @@ When the snake touches the food its length increases and score increses. For eve
 
 We have created two buttons for the players :
 - "View Scores" : Using this button any player can see all the scores that differents players have scored till now.
-- "Game Settings" : Using this button any player can change the colour of the snake. They get to chose any colour from green, blue, and red colour
+- "Game Settings" : Using this button any player can change the color of the snake. They get to chose any color from green, blue, and red colour
 
 To run the game we need run Main.java under test folder(package)
 
