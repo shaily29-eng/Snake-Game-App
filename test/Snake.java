@@ -1,4 +1,4 @@
-//strategy pattern
+//Implemented Strategy Pattern
 package test;
 
 import java.awt.Rectangle;
