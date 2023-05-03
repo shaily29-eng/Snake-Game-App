@@ -1,4 +1,4 @@
-//template pattern:
+//Implemented Template Pattern:
 package test;
 
 public abstract class Observer {
