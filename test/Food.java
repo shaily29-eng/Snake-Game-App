@@ -1,4 +1,5 @@
-//factory pattern:
+//Impletnted using Factory pattern:
+
 package test;
 
 import java.awt.Rectangle;
