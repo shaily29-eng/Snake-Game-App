@@ -1,4 +1,4 @@
-//observer pattern:
+//Implemented using Observer Pattern:
 package test;
 
 		import javax.swing.*;
