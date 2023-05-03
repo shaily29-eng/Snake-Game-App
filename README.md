@@ -11,7 +11,9 @@ This is a simple snake-game application. Here the snake moves based on the arrow
 
 When the snake touches the food its length increases and score increses. For every food a snake eats the score increases by 2. If the snake touches any of the walls then the game expires. 
 
-User can change the colour of the snake from green, blue, and red color options by clicking on "Game Settings" option. Also we can click on "View Scores" option to check all the scores. 
+We have created two buttons for the players :
+- "View Scores" : Using this button any player can see all the scores that differents players have scored till now.
+- "Game Settings" : Using this button any player can change the colour of the snake. They get to chose any colour from green, blue, and red colour
 
 
 <h2>References:</h2>
