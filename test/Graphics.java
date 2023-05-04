@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-public class Graphics extends JPanel implements ActionListener {
+public class Graphics extends JPanel implements ActionListener { //ActionListener is used to handle 2 button click events and perform actions in response to those events.
 	private Timer t = new Timer(100, this);
 	public String state;
 
@@ -22,7 +22,7 @@ public class Graphics extends JPanel implements ActionListener {
 	private Food f;
 	private Game game;
 
-	private JButton highScoreButton;
+	private JButton ScoreButton;
 	private JButton settingsButton;
 
 	public Graphics(Game g) {
@@ -38,29 +38,29 @@ public class Graphics extends JPanel implements ActionListener {
 		this.setFocusable(true);
 		this.setFocusTraversalKeysEnabled(false);
 
-		// Create and add high score button
-		highScoreButton = new JButton("View Scores");
-		highScoreButton.addActionListener(new ActionListener() {
+		// Create and add score button
+		ScoreButton = new JButton("View Scores");
+		ScoreButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
 					BufferedReader reader = new BufferedReader(new FileReader("scores.txt"));
 					String line = reader.readLine();
-					String highScores = "";
+					String Scores = "";
 					while (line != null) {
-						highScores += line + "\n";
+						Scores += line + "\n";
 						line = reader.readLine();
 					}
 					reader.close();
-					JOptionPane.showMessageDialog(null, "Scores:\n" + highScores);
+					JOptionPane.showMessageDialog(null, "Scores:\n" + Scores);
 				} catch (IOException ex) {
-					JOptionPane.showMessageDialog(null, "Error reading high scores");
+					JOptionPane.showMessageDialog(null, "Error reading scores");
 				}
 			}
 		});
 		// Set the location and size of the button to center it in the panel
-		highScoreButton.setBounds(Game.width * Game.dimension / 2 - 50, Game.height * Game.dimension / 2 - 45, 100, 30);
-		this.add(highScoreButton);
+		ScoreButton.setBounds(Game.width * Game.dimension / 2 - 50, Game.height * Game.dimension / 2 - 45, 100, 30);
+		this.add(ScoreButton);
 
 		// Create and add game settings button
 		settingsButton = new JButton("Game Settings");
@@ -118,15 +118,15 @@ public class Graphics extends JPanel implements ActionListener {
 			}
 
 
-			// Remove high score and settings buttons during gameplay
-			this.remove(highScoreButton);
+			// Remove score and settings buttons during gameplay
+			this.remove(ScoreButton);
 			this.remove(settingsButton);
 		} else {
 			g2d.setColor(Color.white);
 			g2d.drawString("Your Score: " + (s.getBody().size() - 3), Game.width / 2 * Game.dimension - 40, Game.height / 2 * Game.dimension - 20);
 
-			// Add high score and settings buttons after game ends
-			this.add(highScoreButton);
+			// Add score and settings buttons after game ends
+			this.add(ScoreButton);
 			this.add(settingsButton);
 		}
 	}
