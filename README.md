@@ -1,6 +1,6 @@
 # Snake-Game-App
 # Team Members : Shaily Goyal, Shreya Maitra
-# Java Version :17.0.6 #
+# Java Version :18.0.2 #
 
 # Instructions for running the snake game #
 This is a simple snake-game application. Here the snake moves based on the arrow pressed. Below are the keys that we need to press for the snake to press:
