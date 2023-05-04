@@ -20,6 +20,11 @@ To run the game we need run Main.java under test folder(package)
 # External link to demo video : 
 https://drive.google.com/file/d/1QxfSqAk_dzUV3HheIFezjdGbNqqaGgY0/view?usp=share_link
 
+
+# Updated UML Diagram
+![Untitled Diagram drawio (16)](https://user-images.githubusercontent.com/111729856/236095123-0a49a205-5575-42b5-b362-6723ba4f7bf4.png)
+
+
 <h2>References:</h2>
 <h3>https://www.w3schools.com/</h3>
 <h3>https://www.geeksforgeeks.org/</h3>
