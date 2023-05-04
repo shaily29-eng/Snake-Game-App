@@ -17,7 +17,8 @@ We have created two buttons for the players :
 
 To run the game we need run Main.java under test folder(package)
 
-#External link to demo video :
+# External link to demo video : 
+https://drive.google.com/file/d/1QxfSqAk_dzUV3HheIFezjdGbNqqaGgY0/view?usp=share_link
 
 <h2>References:</h2>
 <h3>https://www.w3schools.com/</h3>
